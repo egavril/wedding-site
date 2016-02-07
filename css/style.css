@@ -9,10 +9,37 @@ div {
 .top-navigation .content {
 	margin: 0 auto;
 	width: 970px;
-	height: 50px;
+	height: 3.25em;
 	text-align: center;
 }
 
 .top-navigation .content .menu li {
 	display: inline-block;
+	margin-right: 1.5em;
+	font-size: 1.25em;
+	text-transform: uppercase;
+}
+
+.masthead {
+	padding: 19em 0;
+	background-image: url('https://c2.staticflickr.com/6/5569/15143995375_232b02531a_o.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.masthead-heading {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	color: black;
+}
+
+.introduction {
+	max-width: 40em;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 2em;
+	font-size: 1.25em;
 }
