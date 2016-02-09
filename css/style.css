@@ -1,15 +1,22 @@
+
+
+/* outlines
 body {
-    background-color: LightGray;
+    background-color: #FDE9D9;
 }
 
 div {
     border: 1px solid Chocolate;
 }
 
+*/
+
+/* navigation bar */
+
 .top-navigation .content {
 	margin: 0 auto;
 	width: 970px;
-	height: 3.25em;
+	height: 2.5em;
 	text-align: center;
 }
 
@@ -18,11 +25,27 @@ div {
 	margin-right: 1.5em;
 	font-size: 1.25em;
 	text-transform: uppercase;
+	color: black;
 }
+
+.top-navigation a:link {
+	text-decoration: none;
+}
+
+.top-navigation a:hover {
+	text-decoration: underline;
+}
+
+.top-navigation a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+/* masthead image and overlay */
 
 .masthead {
 	padding: 19em 0;
-	background-image: url('https://c2.staticflickr.com/6/5569/15143995375_232b02531a_o.jpg');
+	background: linear-gradient(to bottom right, #953635, #F79B4F, #FDE9D9, #FEC000);
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -36,10 +59,39 @@ div {
 	color: black;
 }
 
+/* intro text below masthead */
+
 .introduction {
 	max-width: 40em;
 	margin-left: auto;
-	margin-right:auto;
+	margin-right: auto;
 	margin-top: 2em;
 	font-size: 1.25em;
+	color: black;
+}
+
+/* section styling */
+
+.introduction,
+.location,
+.rsvp,
+.registry {
+	max-width: 50rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+}
+
+.location,
+.rsvp,
+.registry {
+	background-color: #FDE9DE;
+	padding: 2rem;
+}
+
+.location h2,
+.rsvp h2,
+.registry h2 {
+	text-align: center;
+	margin-top: 2em;
 }
