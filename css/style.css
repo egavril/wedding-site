@@ -26,6 +26,15 @@ body:after {
 	z-index: -1;
 }
 
+h2 {
+	font-size: 2rem;
+	margin-bottom: 1em;
+}
+
+p {
+	line-height: 1.6;
+}
+
 .body-content {
 	background: white;
 	width: calc(100% - 4rem);
@@ -83,7 +92,6 @@ body:after {
 	background-repeat: no-repeat;
 	width: calc(100% - 4rem);
 	margin-left: 2rem;
-	margin-top: 1.25rem;
 	border-radius: 5px;
 }
 
