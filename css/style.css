@@ -40,8 +40,6 @@ body:after {
 
 .top-navigation .content {
 	margin: 0 auto;
-	width: 970px;
-	height: 2.5em;
 	text-align: center;
 }
 
@@ -83,7 +81,6 @@ body:after {
 	background-repeat: no-repeat;
 	width: calc(100% - 4rem);
 	margin-left: 2rem;
-	margin-top: 1.25rem;
 	border-radius: 5px;
 }
 
