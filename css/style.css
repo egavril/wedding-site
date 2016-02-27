@@ -1,31 +1,71 @@
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 
 /* outlines
 body {
-    background-color: #FDE9D9;
+  background-color: #FDE9D9;
 }
-
 div {
-    border: 1px solid Chocolate;
+  border: 1px solid Chocolate;
+}
+*/
+
+body {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	position: relative;
+}
+body:after {
+	content: '';
+	background: linear-gradient(to bottom right, #953635, #F79B4F, #FDE9D9, #FEC000);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
 }
 
-*/
+h2 {
+	font-size: 2rem;
+	margin-bottom: 1em;
+}
+
+p {
+	line-height: 1.6;
+}
+
+.body-content {
+	background: white;
+	width: calc(100% - 4rem);
+	margin-left: 2rem;
+	margin-top: 2rem;
+	border-radius: 5px;
+	padding-bottom: 2rem;
+	margin-bottom: 2rem;
+}
 
 /* navigation bar */
 
 .top-navigation .content {
 	margin: 0 auto;
-	width: 970px;
-	height: 2.5em;
 	text-align: center;
+}
+
+.top-navigation .content .menu {
+	margin: 0;
 }
 
 .top-navigation .content .menu li {
 	display: inline-block;
-	margin-right: 1.5em;
 	font-size: 1.25em;
 	text-transform: uppercase;
 	color: black;
+}
+
+.top-navigation a {
+	padding: .75em;
+	display: block;
 }
 
 .top-navigation a:link {
@@ -48,14 +88,16 @@ div {
 	background: linear-gradient(to bottom right, #953635, #F79B4F, #FDE9D9, #FEC000);
 	background-size: cover;
 	background-repeat: no-repeat;
-
+	width: calc(100% - 4rem);
+	margin-left: 2rem;
+	border-radius: 5px;
 }
 
 .masthead-heading {
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 5em;
 	color: black;
 }
 
@@ -94,5 +136,5 @@ div {
 .rsvp h2,
 .registry h2 {
 	text-align: center;
-	margin-top: 2em;
+	margin-top: 0;
 }
