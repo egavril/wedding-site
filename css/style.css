@@ -35,6 +35,12 @@ p {
 	line-height: 1.6;
 }
 
+.error {
+	color: red;
+	margin-left: 10px;
+	background: rgba(88, 88, 88, 0.5);
+}
+
 .body-content {
 	background: white;
 	width: calc(100% - 4rem);
