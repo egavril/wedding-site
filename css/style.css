@@ -137,4 +137,16 @@ p {
 .registry h2 {
 	text-align: center;
 	margin-top: 0;
+	font-style: italic;
+}
+
+/* time and place section */
+
+.event {
+	text-align: center;
+	font-size: 1.85rem;
+}
+
+.location p {
+	font-size: 1.25rem;
 }
